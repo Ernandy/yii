@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	 <style>
+	 	body {background-color: powderblue;}
+  	 	h1 {color: red;}
+		td {color: white;}
+     	p {color: white;}
+		table, th, td {
+    	border: 1px solid WHITE;
+		}
+		div.players {
+    	background-color: black;
+    	color: white;
+    	margin: 20px 0 20px 0;
+    	padding: 20px;
+		} 
+		.stadium {
+   				float: left;
+   				margin: 10px;
+   				padding: 10px;
+   				max-width: 300px;
+   				height: 300px;
+   				border: 1px solid black;
+		}
+	</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="file:///E|/template/minimal/theme/assets/ico/favicon.png">
+
+    <title>MINIMAL - Free Bootstrap 3 Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="file:///E|/template/minimal/theme/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="file:///E|/template/minimal/theme/assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="file:///E|/template/minimal/theme/assets/css/font-awesome.min.css">
+
+    <script src="file:///E|/template/minimal/theme/assets/js/jquery.min.js"></script>
+	<script src="file:///E|/template/minimal/theme/assets/js/modernizr.custom.js"></script>
+	
+
+	
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="file:///E|/template/minimal/theme/index.html#home">Minimal</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#about" class="smoothScroll">About</a>
+			<a href="#portfolio" class="smoothScroll">Portfolio</a>
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="#"><i class="icon-facebook"></i></a>
+			<a href="#"><i class="icon-twitter"></i></a>
+			<a href="#"><i class="icon-dribbble"></i></a>
+			<a href="#"><i class="icon-envelope"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+
+
+	
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="logo">
+				<img src="/logo.png">
+			</div>
+			<br>
+			<div class="row">
+				<h1>REAL MADRID</h1>
+                <h2>Welcome :)</h2>
+        <form action="file:///E|/template/minimal/theme/action_page.php">
+ 		 <select name="playerss">
+    		<option value="Ronaldo">Ronaldo</option>
+    		<option value="Bale">Bale</option>
+    		<option value="Benzema">Benzema</option>
+    		<option value="James">James</option>
+  		</select>
+  		<br><br>
+  		<input type="submit">
+		</form>
+        <button type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.
+        </button>
+    
+        <p id="demo"></p>
+                
+				<br>
+				<h3><img src="/Real-Madrid.png" width="200" height="200" alt=""/></h3>
+				<br><p style="color:white;">Here is a quote from CR7:</p>
+                <blockquote cite="http://www.brainyquote.com/quotes/authors/c/cristiano_ronaldo.html" style="color:white;">
+                    I'm not going to change the world. You're not going to change the world. But we can help - we can all                 help. 
+                    
+                </blockquote>
+                <table>
+                  <tr>
+                    <th style="color:white;">Player</th>
+                    <th style="color:white;">Age</th>
+                    <th style="color:white;">Country</th>
+                    <th style="color:white;">Image</th>
+                  </tr>
+                  <tr
+                  >
+                    <td style="color:white;">C.Ronaldo</td>
+                    <td style="color:white;">31</td>
+                    <td style="color:white;">Portugal</td>
+                    <td><img src="../../Users/ASUS/Documents/Unnamed Site 2//cr7.jpg" width="100" height="100" alt=""/></tr>
+                  <tr>
+                    <td style="color:white;">K.Benzema</td>
+                    <td style="color:white;">28</td>
+                    <td style="color:white;">France</td>
+                    <td><img src="../../Users/ASUS/Documents/Unnamed Site 2//Benzema.jpg" width="100" height="100" alt=""/>
+                    </tr>
+                  <tr>
+                    <td style="color:white;">Gareth Bale</td>
+                    <td style="color:white;">27</td>
+                    <td style="color:white;">Wales</td>
+                    <td><img src="../../Users/ASUS/Documents/Unnamed Site 2//2562732_heroa.jpg" width="100" height="100" alt=""/>
+                    </tr>
+                  <tr>
+                    
+                 </table>
+                 <h2 style="color:white;">Highest transfer fees paid</h2>
+    
+            <ol type="1">
+            <li style="color:white;">Gareth Bale &euro;86m</li>
+            <li style="color:white;">Cristiano Ronaldo &euro;80m</li>
+            <li style="color:white;">James Rodriguez &euro;60m</li>
+            </ol>
+            <div class="players">
+                <h2>Cristiano Ronaldo</h2>
+                <p>Cristiano Ronaldo dos Santos Aveiro, born 5 February 1985) is a Portuguese professional footballer who                plays for Spanish club Real Madrid and the portugal national team.</p>
+            </div>
+    
+            <div class="players">
+                <h2>Karim Benzema</h2>
+                <p>Karim Mostafa Benzema (born 19 December 1987) is a French professional footballer of Algerian descent                   who plays for Spanish club Real Madrid and the France national team as a striker.</p>
+            </div>
+    
+            <div class="players">
+                <h2>Gareth Bale</h2>
+                <p>Gareth Frank Bale (born 16 July 1989) is a Welsh professional footballer who plays as a winger for                  Spanish club Real Madrid and the Wales national team.</p>
+            </div>
+            <div class="stadium">
+                 <h2>Santiago Bernabéu</h2>
+                    <p>The Santiago Bernabeu Stadium Is the current home stadium of Real Madrid.</p>
+                    <p>Santiago Bernabeu is one of the world's most famous and prestigious football venues. It has hosted                     the European Cup final on four occasions: in 1957, 1969, 1980, the UEFA Champions League Final in                       2010.</p>
+                </div>
+                 <p style="color:white;"> Real Madrid Last match <p>
+                <video width="640" height="480" controls>
+                    <source src="C:\Users\ASUS\Downloads\madrid.mp4" type="video/mp4">
+                    
+                Your browser does not support the video tag.
+                </video>
+    				 <p> Music<p>
+                <audio controls>
+                    
+                    <source src="C:\Users\ASUS\Documents\Young, Wild and Free.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <iframe width="420" height="315"
+                        src="https://www.youtube.com/embed/oZUY9tkfAFg?controls=0">
+                </iframe>
+                <p>Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>.</p>
+                <!-- This is a comment -->
+                <p></p>
+                <!-- Comments are not displayed in the browser -->
+                <object width="500" height="281" data="../../Users/ASUS/Documents/Unnamed Site 2//giphy.gif"></object>
+                <p><a href="file:///E|/template/minimal/theme/www.realmadrid.com/id">Visit our official</a></p>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	
+	
+	<!-- ========== ABOUT SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>ABOUT ME</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				
+				<!-- INTRO INFORMATIO-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>Copyright: minimal template .</p>
+					<p>Ini adalah salah satu tugas mata kuliah Pemrograman Web</p>
+					<p>Nama saya Ernandy Magat, mahasiswa Teknik Informatika Unversitas Atma Jaya Yogyakarta. Cari saya di <a href="https://twitter.com/Ernandy_M">Twitter</a></p>
+					<p>Need help?</p>
+					<p><button type="button" class="btn btn-warning">JUST CONTACT ME NOW.</button></p>
+				</div>								
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+	
+
+	<!-- ========== CAROUSEL SECTION ========== -->	
+	<section id="portfolio" name="portfolio"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<h3>SOME PLAYERS</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active centered">
+								<img class="img-responsive" src="../../Users/ASUS/Documents/Unnamed Site 2/150708551/benze.png" alt="">
+							</div>
+							<div class="item centered">
+								<img class="img-responsive" src="../../Users/ASUS/Documents/Unnamed Site 2/150708551/gb.png" alt="">
+							</div>
+							<div class="item centered">
+								<img class="img-responsive" src="../../Users/ASUS/Documents/Unnamed Site 2/150708551/cr.png" alt="">
+							</div>
+						</div>
+						<br>
+						<br>
+						<ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+					</div>
+				</div><!-- col-lg-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>	<!-- f -->
+
+	<!-- ========== CONTACT SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>CONTACT ME</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>Babarsari TB, 16 <br/>Depok, Sleman, Yogyakarta<br/>081350062007</p>
+					<p>didi.ernandi@gmail.com</p>
+					<p><button type="button" class="btn btn-warning">YEAH! CONTACT ME NOW!</button></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="file:///E|/template/minimal/theme/assets/js/classie.js"></script>
+    <script src="file:///E|/template/minimal/theme/assets/js/bootstrap.min.js"></script>
+    <script src="file:///E|/template/minimal/theme/assets/js/smoothscroll.js"></script>
+	<script src="file:///E|/template/minimal/theme/assets/js/main.js"></script>
+</body>
+</html>
